@@ -20,4 +20,3 @@ class handler():
     def split_sentence(self,sentence):
         result = self.analyze(sentence=sentence)
         return list(result.keys())
-

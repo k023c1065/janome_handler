@@ -1,1 +1,0 @@
-from .Handler import janome_handler
