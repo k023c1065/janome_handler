@@ -13,10 +13,10 @@ def _requires_from_file(filename):
 setup(
     name="janomehand",
     version="0.0.1",
-    license="ライセンス",
+    license="Apache 2.0",
     description="パッケージの説明",
-    author="作成者",
-    url="GitHubなどURL",
+    author="k023c1065",
+    url="https://github.com/k023c1065/janome_handler",
     packages=find_packages("src"),
     package_dir={"": "src"},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
